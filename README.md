@@ -31,8 +31,18 @@
 git clone <this-repo-url>
 cd windows-ir-quickcollect\scripts
 win_ir_collect.bat
+```
+
+> 실행 후 IR_Output_YYYYMMDD\ 폴더가 생성되고,
+
+01_psinfo.txt, 02_uptime.txt, 03_ipconfig_all.txt, 04_net_session.txt,
+
+05_netstat_na.txt, 06_ntlast.txt, 07_fport_i.txt, 08_promiscdetect.txt,
+
+09_net_start.txt, 10_pslist_t.txt, 11_listdlls.txt, 12_handle.txt 등이 저장됩니다.
 
 ### 2) Powershell
+```powershell
 git clone <this-repo-url>
 cd windows-ir-quickcollect/scripts
 
