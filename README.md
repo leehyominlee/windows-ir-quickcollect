@@ -30,3 +30,8 @@
 ```cmd
 cd scripts
 win_ir_collect.bat
+
+### 2) Powershell
+# (필요시) 1회 실행 허용:  Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+cd scripts
+.\win_ir_collect.ps1
