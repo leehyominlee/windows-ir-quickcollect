@@ -28,10 +28,16 @@
 
 ### 1) BAT
 ```cmd
-cd scripts
+git clone <this-repo-url>
+cd windows-ir-quickcollect\scripts
 win_ir_collect.bat
 
 ### 2) Powershell
-# (필요시) 1회 실행 허용:  Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-cd scripts
+git clone <this-repo-url>
+cd windows-ir-quickcollect/scripts
+
+# 필요 시 현재 세션만 실행 허용
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
 .\win_ir_collect.ps1
+
